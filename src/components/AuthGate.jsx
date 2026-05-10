@@ -95,7 +95,7 @@ export default function AuthGate({ initialMode = "landing" }) {
           <section className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
             <div className="xenon-panel overflow-hidden p-6 sm:p-8">
               <div className="flex flex-wrap items-center gap-3">
-                <img src="/xenon-logo.svg" alt="Xenon Code logo" className="h-14 w-14 rounded-3xl shadow-lg shadow-black/20" />
+                <img src="/xenon-logo.svg" alt="Xenon Code logo" className="h-9 w-9 rounded-xl shadow-lg shadow-black/20" />
                 <span className="xenon-pill">Browser-Based Python Learning</span>
               </div>
               <h1 className="xenon-section-title mt-6 max-w-3xl font-bold">Learn Python in a clean workspace built for students and teachers.</h1>
@@ -188,7 +188,7 @@ export default function AuthGate({ initialMode = "landing" }) {
         <div className="flex items-center justify-between gap-3">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/xenon-logo.svg" alt="Xenon Code logo" className="h-11 w-11 rounded-2xl" />
+              <img src="/xenon-logo.svg" alt="Xenon Code logo" className="h-8 w-8 rounded-xl" />
               <div>
                 <h2 className="text-2xl font-semibold">{mode === "signin" ? "Sign In" : "Create Account"}</h2>
                 <p className="mt-1 text-sm text-[var(--muted)]">

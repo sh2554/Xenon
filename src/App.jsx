@@ -294,7 +294,7 @@ export default function App() {
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-3">
-              <img src="/xenon-logo.svg" alt="Xenon Code logo" className="h-12 w-12 rounded-2xl" />
+              <img src="/xenon-logo.svg" alt="Xenon Code logo" className="h-8 w-8 rounded-xl" />
               <div>
                 <h1 className="text-lg font-semibold">Xenon Code</h1>
                 <p className="text-sm text-[var(--muted)]">Simple Python learning</p>
